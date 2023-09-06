@@ -12,8 +12,8 @@ import core.BaseClass;
 
 public class ExcelUtility extends BaseClass{
 
-	public static String pathToExcelFile = "C:\\Users\\T540p\\eclipse-workspace\\TopTech.sdet.testNG\\src\\test\\resources\\Test_Data\\test-data.xlsx";
-
+	public static String pathToExcelFile ="C:\\Users\\T540p\\Desktop\\info.xlsx";
+										  
 	public static Workbook book;
 	public static Sheet sheet;
 

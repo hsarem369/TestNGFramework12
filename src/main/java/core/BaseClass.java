@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -23,7 +25,7 @@ public class BaseClass {
 	private String ppfile = ".\\src\\test\\resources\\ProjectData\\project.properties";
 	private String pathtoPP = userDirectory + ppfile;
 	
-	//public static Logger logger;
+	public static Logger logger;
 	
 	public BaseClass() {
 		try {
@@ -41,8 +43,8 @@ public class BaseClass {
 			e.printStackTrace();
 		}
 		
-		//logger = Logger.getLogger("logger file");
-	//	PropertyConfigurator.configure(".\\src\\test\\resources\\ProjectData\\Log4j2.properties");
+		logger = Logger.getLogger("logger file");
+		PropertyConfigurator.configure(".\\src\\test\\resources\\ProjectData\\Log4j2.properties");
 		
 	}
 	public static String getBrowserName() {

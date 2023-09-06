@@ -1,0 +1,85 @@
+2023-09-01 07:13:47,097 - logger file -INFO - before this is running
+2023-09-01 07:14:37,998 - logger file -INFO - before this is running
+2023-09-01 07:14:38,730 - logger file -INFO - after test is running
+2023-09-02 08:26:00,712 - logger file -INFO - before this is running
+2023-09-02 08:26:40,522 - logger file -INFO - after test is running
+2023-09-02 08:31:49,251 - logger file -INFO - before this is running
+2023-09-02 08:31:50,311 - logger file -INFO - after test is running
+2023-09-03 06:42:50,077 - logger file -INFO - before this is running
+2023-09-03 06:42:51,417 - logger file -INFO - after test is running
+2023-09-03 06:48:18,169 - logger file -INFO - before this is running
+2023-09-03 06:49:21,184 - logger file -INFO - after test is running
+2023-09-03 06:51:13,497 - logger file -INFO - before this is running
+2023-09-03 06:52:22,916 - logger file -INFO - after test is running
+2023-09-03 07:01:36,711 - logger file -INFO - before this is running
+2023-09-03 07:04:05,773 - logger file -INFO - after test is running
+2023-09-04 11:26:22,529 - logger file -INFO - before this is running
+2023-09-04 11:27:28,233 - logger file -INFO - after test is running
+2023-09-05 16:34:27,141 - logger file -INFO - before this is running
+2023-09-05 16:34:27,504 - logger file -INFO - clicking myAccount
+2023-09-05 16:34:28,114 - logger file -INFO - clicking login
+2023-09-05 16:34:28,303 - logger file -INFO - entering email
+2023-09-05 16:34:28,390 - logger file -INFO - entering passwor
+2023-09-05 16:34:28,479 - logger file -INFO - clicking login
+2023-09-05 16:34:28,490 - logger file -INFO - after test is running
+2023-09-05 17:22:54,916 - logger file -INFO - test execution started
+2023-09-05 17:23:03,902 - logger file -INFO - before this is running
+2023-09-05 17:23:03,946 - logger file -INFO - test execution started
+2023-09-05 17:23:04,478 - logger file -INFO - clicking myAccount
+2023-09-05 17:23:04,808 - logger file -INFO - clicking login
+2023-09-05 17:23:04,974 - logger file -INFO - entering email
+2023-09-05 17:23:05,075 - logger file -INFO - entering passwor
+2023-09-05 17:23:05,169 - logger file -INFO - clicking login
+2023-09-05 17:23:05,172 - logger file -INFO - test passed successfully
+2023-09-05 17:23:05,173 - logger file -INFO - method name: loginTestPage
+2023-09-05 17:23:05,180 - logger file -INFO - after test is running
+2023-09-05 17:23:05,786 - logger file -INFO -  end of execution
+2023-09-05 17:27:41,621 - logger file -INFO - test execution started
+2023-09-05 17:27:46,823 - logger file -INFO - test execution started
+2023-09-05 17:27:46,910 - logger file -INFO - test failed
+2023-09-05 17:27:46,911 - logger file -INFO - method name : verifyElement
+2023-09-05 17:27:46,914 - logger file -INFO - test failed
+2023-09-05 17:27:46,915 - logger file -INFO - method name : verifyElement
+2023-09-05 17:27:47,222 - logger file -INFO -  end of execution
+2023-09-05 17:30:29,278 - logger file -INFO - before this is running
+2023-09-05 17:30:39,413 - logger file -INFO - clicking myAccount
+2023-09-05 17:30:39,919 - logger file -INFO - clicking login
+2023-09-05 17:30:40,243 - logger file -INFO - entering email
+2023-09-05 17:30:40,398 - logger file -INFO - entering passwor
+2023-09-05 17:30:40,510 - logger file -INFO - clicking login
+2023-09-05 17:31:35,889 - logger file -INFO - after test is running
+2023-09-05 17:33:32,534 - logger file -INFO - test execution started
+2023-09-05 17:33:37,348 - logger file -INFO - test execution started
+2023-09-05 17:33:37,429 - logger file -INFO - test failed
+2023-09-05 17:33:37,431 - logger file -INFO - method name : verifyElement
+2023-09-05 17:33:37,432 - logger file -INFO - test failed
+2023-09-05 17:33:37,433 - logger file -INFO - method name : verifyElement
+2023-09-05 17:33:37,830 - logger file -INFO -  end of execution
+2023-09-05 17:38:01,459 - logger file -INFO - test execution started
+2023-09-05 17:38:06,691 - logger file -INFO - test execution started
+2023-09-05 17:38:06,780 - logger file -INFO - test failed
+2023-09-05 17:38:06,781 - logger file -INFO - method name : verifyElement
+2023-09-05 17:38:06,783 - logger file -INFO - test failed
+2023-09-05 17:38:06,784 - logger file -INFO - method name : verifyElement
+2023-09-05 17:38:07,222 - logger file -INFO -  end of execution
+2023-09-05 18:03:39,395 - logger file -INFO - before this is running
+2023-09-05 18:03:48,684 - logger file -INFO - clicking myAccount
+2023-09-05 18:03:49,178 - logger file -INFO - clicking login
+2023-09-05 18:03:49,387 - logger file -INFO - entering email
+2023-09-05 18:03:49,506 - logger file -INFO - entering passwor
+2023-09-05 18:03:49,597 - logger file -INFO - clicking login
+2023-09-05 18:04:44,045 - logger file -INFO - after test is running
+2023-09-05 18:06:40,646 - logger file -INFO - test execution started
+2023-09-05 18:06:45,667 - logger file -INFO - test execution started
+2023-09-05 18:06:45,726 - logger file -INFO - test failed
+2023-09-05 18:06:45,727 - logger file -INFO - method name : verifyElement
+2023-09-05 18:06:45,728 - logger file -INFO - test failed
+2023-09-05 18:06:45,729 - logger file -INFO - method name : verifyElement
+2023-09-05 18:06:46,030 - logger file -INFO -  end of execution
+2023-09-06 15:26:41,357 - logger file -INFO - test execution started
+2023-09-06 15:26:50,968 - logger file -INFO - test execution started
+2023-09-06 15:26:51,036 - logger file -INFO - test failed
+2023-09-06 15:26:51,036 - logger file -INFO - method name : verifyElement
+2023-09-06 15:26:51,038 - logger file -INFO - test failed
+2023-09-06 15:26:51,039 - logger file -INFO - method name : verifyElement
+2023-09-06 15:26:51,257 - logger file -INFO -  end of execution

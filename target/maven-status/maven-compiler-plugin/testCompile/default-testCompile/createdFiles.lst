@@ -1,3 +1,15 @@
-tests\DataBase_Runner.class
-tests\LoginSteps_Simple.class
+tests\TestNG_Features.class
+tests\Assertions.class
+tests\RegistrationFormTest.class
+tests\PreserveClass1.class
+tests\TestNG_GroupingAndDependency.class
+tests_1\DataBase_Runner.class
+tests\Parameterization.class
+tests\PreserveClass2.class
+tests\LoginTest.class
+tests\TestNG_Annotations.class
+pageObjects\RegistrationFormPageObjects.class
+tests\Listeners.class
+tests\DataProviderTest.class
+tests\ParallelExecution.class
 pageObjects\LoginPageObjects.class

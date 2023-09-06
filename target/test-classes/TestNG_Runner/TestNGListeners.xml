@@ -3,13 +3,13 @@
 <suite name="Suite">
 
 <listeners>
-<listener class-name="tests.Listeners"></listener>
+<listener class-name="tests.Listeners1"></listener>
 </listeners>
 
   <test  name="Test">
 <!--  <parameter name="browser" value="chrome"></parameter>  -->
   <classes>
-      <class name="tests.LoginSteps_Simple"/>
+      <class name="tests.Assertion"/>
     </classes>
   </test>  
 </suite> <!-- Suite -->
