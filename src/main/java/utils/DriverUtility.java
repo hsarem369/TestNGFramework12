@@ -26,7 +26,7 @@ import core.BaseClass;
 public class DriverUtility extends BaseClass {
 
 	
-	// utility method to select from dropdown by visible text
+
 
 	public static void selectByVisibleText(WebElement ele, String text) {
 
