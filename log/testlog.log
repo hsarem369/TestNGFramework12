@@ -83,3 +83,5 @@
 2023-09-06 15:26:51,038 - logger file -INFO - test failed
 2023-09-06 15:26:51,039 - logger file -INFO - method name : verifyElement
 2023-09-06 15:26:51,257 - logger file -INFO -  end of execution
+2023-09-08 18:25:31,026 - logger file -INFO - initize the driver
+2023-09-08 18:25:31,371 - logger file -INFO - user is clicking my account
