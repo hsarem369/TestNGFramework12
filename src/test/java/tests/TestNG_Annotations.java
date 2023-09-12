@@ -52,6 +52,11 @@ public class TestNG_Annotations {
 	}
 	
 	@Test
+	public void test1() {
+		System.out.println("it is test one");
+	}
+	
+	@Test
 	public void test2() {
 		System.out.println("it is test 2");
 	}
