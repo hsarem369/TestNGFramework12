@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -23,6 +24,7 @@ public class LoginTest extends BaseClass{
 	public void login() {
 		object = new LoginPageObjects();
 		
+		Assert.assertTrue(false);
 		object.clickMyAccount();
 		
 		logger.info("user is clicking my account");
