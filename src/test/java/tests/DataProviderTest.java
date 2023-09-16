@@ -19,9 +19,9 @@ public class DataProviderTest {
 			Object [][]	data = new Object[2][2];
 			
 			data[0][0]= "user1";
-			data[1][0] = "pass1";
+			data[0][1] = "pass1";
 			
-			data[0][1] = "user2";
+			data[1][0] = "user2";
 			data[1][1] = "pass2";
 					
 			

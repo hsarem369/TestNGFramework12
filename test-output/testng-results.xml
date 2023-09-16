@@ -1,45 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-13T19:01:55 PDT" name="Default suite" finished-at="2023-09-13T19:01:56 PDT" duration-ms="197">
+  <suite started-at="2023-09-15T19:03:59 PDT" name="Default suite" finished-at="2023-09-15T19:04:13 PDT" duration-ms="14369">
     <groups>
     </groups>
-    <test started-at="2023-09-13T19:01:55 PDT" name="Default test" finished-at="2023-09-13T19:01:56 PDT" duration-ms="197">
-      <class name="tests.DataProviderTest">
-        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:tests.DataProviderTest@625abb97]" started-at="2023-09-13T19:01:56 PDT" name="test" data-provider="data" finished-at="2023-09-13T19:01:56 PDT" duration-ms="48" status="PASS">
+    <test started-at="2023-09-15T19:03:59 PDT" name="Default test" finished-at="2023-09-15T19:04:13 PDT" duration-ms="14369">
+      <class name="tests.RegistrationFormTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.RegistrationFormTest@29ef6856]" started-at="2023-09-15T19:03:59 PDT" name="beforeTest" finished-at="2023-09-15T19:04:11 PDT" duration-ms="12429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="registerForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.RegistrationFormTest@29ef6856]" started-at="2023-09-15T19:04:12 PDT" name="registerForm" data-provider="testData" finished-at="2023-09-15T19:04:12 PDT" duration-ms="14" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user1]]>
+                <![CDATA[Jawid]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[user2]]>
+                <![CDATA[Ashoory]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jawid@hotmail.come]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.222222222E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test124]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at pageObjects.RegistrationFormPageObjects.clickOnMyAccount(RegistrationFormPageObjects.java:59)
+at tests.RegistrationFormTest.registerForm(RegistrationFormTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:tests.DataProviderTest@625abb97]" started-at="2023-09-13T19:01:56 PDT" name="test" data-provider="data" finished-at="2023-09-13T19:01:56 PDT" duration-ms="4" status="PASS">
+        </test-method> <!-- registerForm -->
+        <test-method signature="registerForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.RegistrationFormTest@29ef6856]" started-at="2023-09-15T19:04:13 PDT" name="registerForm" data-provider="testData" finished-at="2023-09-15T19:04:13 PDT" duration-ms="3" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[pass1]]>
+                <![CDATA[hamid]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[pass2]]>
+                <![CDATA[Sarem]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hamid@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.444444444E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123test]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123test]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at pageObjects.RegistrationFormPageObjects.clickOnMyAccount(RegistrationFormPageObjects.java:59)
+at tests.RegistrationFormTest.registerForm(RegistrationFormTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- tests.DataProviderTest -->
+        </test-method> <!-- registerForm -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.RegistrationFormTest@29ef6856]" started-at="2023-09-15T19:04:13 PDT" name="afterTest" finished-at="2023-09-15T19:04:13 PDT" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.RegistrationFormTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

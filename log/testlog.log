@@ -87,3 +87,46 @@
 2023-09-08 18:25:31,371 - logger file -INFO - user is clicking my account
 2023-09-13 14:59:55,348 - logger file -INFO - initize the driver
 2023-09-13 18:19:26,988 - logger file -INFO - initize the driver
+2023-09-15 16:52:41,133 - logger file -INFO - test execution started
+2023-09-15 16:52:41,176 - logger file -INFO - test passed successfully
+2023-09-15 16:52:41,178 - logger file -INFO - method name: login
+2023-09-15 16:52:41,206 - logger file -INFO - test passed successfully
+2023-09-15 16:52:41,207 - logger file -INFO - method name: test1
+2023-09-15 16:52:41,222 - logger file -INFO - test passed successfully
+2023-09-15 16:52:41,224 - logger file -INFO - method name: test2
+2023-09-15 16:52:41,266 - logger file -INFO -  end of execution
+2023-09-15 16:54:28,268 - logger file -INFO - test execution started
+2023-09-15 16:54:28,321 - logger file -INFO - test failed
+2023-09-15 16:54:28,322 - logger file -INFO - method name : failTest
+2023-09-15 16:54:28,358 - logger file -INFO - test passed successfully
+2023-09-15 16:54:28,359 - logger file -INFO - method name: login
+2023-09-15 16:54:28,375 - logger file -INFO - test passed successfully
+2023-09-15 16:54:28,379 - logger file -INFO - method name: test1
+2023-09-15 16:54:28,396 - logger file -INFO - test passed successfully
+2023-09-15 16:54:28,398 - logger file -INFO - method name: test2
+2023-09-15 16:54:28,455 - logger file -INFO -  end of execution
+2023-09-15 17:25:27,358 - logger file -INFO - test execution started
+2023-09-15 17:25:27,410 - logger file -INFO - test failed
+2023-09-15 17:25:27,415 - logger file -INFO - method name : failTest
+2023-09-15 17:25:27,452 - logger file -INFO - test passed successfully
+2023-09-15 17:25:27,454 - logger file -INFO - method name: login
+2023-09-15 17:25:27,470 - logger file -INFO - test passed successfully
+2023-09-15 17:25:27,472 - logger file -INFO - method name: test1
+2023-09-15 17:25:27,493 - logger file -INFO - test passed successfully
+2023-09-15 17:25:27,498 - logger file -INFO - method name: test2
+2023-09-15 17:25:27,552 - logger file -INFO -  end of execution
+2023-09-15 17:29:33,771 - logger file -INFO - test execution started
+2023-09-15 17:29:33,834 - logger file -INFO - test failed
+2023-09-15 17:29:33,836 - logger file -INFO - method name : failTest
+2023-09-15 17:29:33,883 - logger file -INFO - test passed successfully
+2023-09-15 17:29:33,884 - logger file -INFO - method name: login
+2023-09-15 17:29:33,903 - logger file -INFO - test passed successfully
+2023-09-15 17:29:33,905 - logger file -INFO - method name: test1
+2023-09-15 17:29:33,929 - logger file -INFO - test passed successfully
+2023-09-15 17:29:33,933 - logger file -INFO - method name: test2
+2023-09-15 17:29:33,999 - logger file -INFO -  end of execution
+2023-09-15 18:37:41,069 - logger file -INFO - initialize driver
+2023-09-15 18:41:22,501 - logger file -INFO - initialize driver
+2023-09-15 18:44:04,728 - logger file -INFO - initialize driver
+2023-09-15 18:58:55,781 - logger file -INFO - initialize driver
+2023-09-15 19:04:11,748 - logger file -INFO - initialize driver

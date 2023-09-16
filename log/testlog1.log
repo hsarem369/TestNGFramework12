@@ -87,3 +87,46 @@
 2023-09-08 18:25:31,371 [main] INFO logger file - user is clicking my account
 2023-09-13 14:59:55,348 [main] INFO logger file - initize the driver
 2023-09-13 18:19:26,988 [main] INFO logger file - initize the driver
+2023-09-15 16:52:41,133 [main] INFO logger file - test execution started
+2023-09-15 16:52:41,176 [main] INFO logger file - test passed successfully
+2023-09-15 16:52:41,178 [main] INFO logger file - method name: login
+2023-09-15 16:52:41,206 [main] INFO logger file - test passed successfully
+2023-09-15 16:52:41,207 [main] INFO logger file - method name: test1
+2023-09-15 16:52:41,222 [main] INFO logger file - test passed successfully
+2023-09-15 16:52:41,224 [main] INFO logger file - method name: test2
+2023-09-15 16:52:41,266 [main] INFO logger file -  end of execution
+2023-09-15 16:54:28,268 [main] INFO logger file - test execution started
+2023-09-15 16:54:28,321 [main] INFO logger file - test failed
+2023-09-15 16:54:28,322 [main] INFO logger file - method name : failTest
+2023-09-15 16:54:28,358 [main] INFO logger file - test passed successfully
+2023-09-15 16:54:28,359 [main] INFO logger file - method name: login
+2023-09-15 16:54:28,375 [main] INFO logger file - test passed successfully
+2023-09-15 16:54:28,379 [main] INFO logger file - method name: test1
+2023-09-15 16:54:28,396 [main] INFO logger file - test passed successfully
+2023-09-15 16:54:28,398 [main] INFO logger file - method name: test2
+2023-09-15 16:54:28,455 [main] INFO logger file -  end of execution
+2023-09-15 17:25:27,358 [main] INFO logger file - test execution started
+2023-09-15 17:25:27,410 [main] INFO logger file - test failed
+2023-09-15 17:25:27,415 [main] INFO logger file - method name : failTest
+2023-09-15 17:25:27,452 [main] INFO logger file - test passed successfully
+2023-09-15 17:25:27,454 [main] INFO logger file - method name: login
+2023-09-15 17:25:27,470 [main] INFO logger file - test passed successfully
+2023-09-15 17:25:27,472 [main] INFO logger file - method name: test1
+2023-09-15 17:25:27,493 [main] INFO logger file - test passed successfully
+2023-09-15 17:25:27,498 [main] INFO logger file - method name: test2
+2023-09-15 17:25:27,552 [main] INFO logger file -  end of execution
+2023-09-15 17:29:33,771 [main] INFO logger file - test execution started
+2023-09-15 17:29:33,834 [main] INFO logger file - test failed
+2023-09-15 17:29:33,836 [main] INFO logger file - method name : failTest
+2023-09-15 17:29:33,883 [main] INFO logger file - test passed successfully
+2023-09-15 17:29:33,884 [main] INFO logger file - method name: login
+2023-09-15 17:29:33,903 [main] INFO logger file - test passed successfully
+2023-09-15 17:29:33,905 [main] INFO logger file - method name: test1
+2023-09-15 17:29:33,929 [main] INFO logger file - test passed successfully
+2023-09-15 17:29:33,933 [main] INFO logger file - method name: test2
+2023-09-15 17:29:33,999 [main] INFO logger file -  end of execution
+2023-09-15 18:37:41,069 [main] INFO logger file - initialize driver
+2023-09-15 18:41:22,501 [main] INFO logger file - initialize driver
+2023-09-15 18:44:04,728 [main] INFO logger file - initialize driver
+2023-09-15 18:58:55,781 [main] INFO logger file - initialize driver
+2023-09-15 19:04:11,748 [main] INFO logger file - initialize driver

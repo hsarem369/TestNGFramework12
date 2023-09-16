@@ -1,8 +1,0 @@
-tests\TestNG_Features.class
-tests\Parameterization.class
-tests\Assertion.class
-tests\LoginTest.class
-tests\TestNG_Annotations.class
-tests\TestNG_GroupingAndDependency.class
-tests\ParallelExecution.class
-pageObjects\LoginPageObjects.class
