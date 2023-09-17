@@ -55,6 +55,7 @@ public class TestNG_Annotations {
 	@Test
 	public void test0() {
 		System.out.println("it is test zero");
+		System.out.println("it is test zero");
 	}
 	
 	@Test
