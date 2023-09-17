@@ -10,10 +10,17 @@
           <include name="gracefulTearDown"/>
         </methods>
       </class> <!-- tests.TestNG_Features -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
       <class name="tests.TestNG_GroupingAndDependency">
         <methods>
-          <include name="afterSuite"/>
           <include name="afterTest"/>
+          <include name="afterSuite"/>
           <include name="gracefulTearDown"/>
         </methods>
       </class> <!-- tests.TestNG_GroupingAndDependency -->
@@ -27,21 +34,14 @@
           <include name="beforeClass"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
-          <include name="failTest"/>
           <include name="afterSuite"/>
+          <include name="failTest"/>
           <include name="beforeSuite"/>
           <include name="afterClass"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- tests.TestNG_Annotations -->
-      <class name="tests.LoginTest">
-        <methods>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- tests.LoginTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

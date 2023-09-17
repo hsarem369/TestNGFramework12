@@ -1,3 +1,4 @@
+
 package utils;
 
 import java.io.IOException;
@@ -18,7 +19,6 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import core.BaseClass;
-import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
 public class Listeners extends BaseClass implements ITestListener{
 
@@ -59,7 +59,7 @@ public class Listeners extends BaseClass implements ITestListener{
 	String methodName = result.getMethod().getMethodName();
 	
 	System.out.println(methodName +"started!");
-	
+	logger.info(result.getMethod().getMethodName());
 	
 	}
 
@@ -121,13 +121,13 @@ public class Listeners extends BaseClass implements ITestListener{
 
 	@Override
 	public void onStart(ITestContext context) {
-		logger.info("test execution started");
+		logger.info("test execution started" + context);
 		
 	}
 
 	@Override
 	public void onFinish(ITestContext context) {
-		logger.info(" end of execution");
+		logger.info(" end of execution" + context);
 		
 		extent.flush();
 		

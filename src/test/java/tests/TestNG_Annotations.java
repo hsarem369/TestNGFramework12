@@ -95,7 +95,7 @@ public class TestNG_Annotations {
 	@AfterSuite
 	public void afterSuite() {
 
-		System.out.println("it is after suite method");
+		System.out.println("it is after suite methodss");
 
 	}
 }
