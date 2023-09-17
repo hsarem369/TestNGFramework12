@@ -88,9 +88,9 @@ public class Listeners extends BaseClass implements ITestListener{
 		
 		result.getMethod().getDescription());
 		extentTest.log(Status.FAIL, "test failed");
-		extentTest.assignAuthor("Sayed Sadat");
-		extentTest.assignCategory("smoke test");
-		extentTest.assignCategory("regression");
+	//	extentTest.assignAuthor("Sayed Sadat");
+	//	extentTest.assignCategory("smoke test");
+	//	extentTest.assignCategory("regression");
 		//test.get().info("test failed");
 	//	test.get().getModel().setEndTime(getTime(result.getEndMillis()));
 		//DriverUtility.screenShot();

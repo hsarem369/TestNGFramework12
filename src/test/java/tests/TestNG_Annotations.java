@@ -52,6 +52,10 @@ public class TestNG_Annotations {
 		System.out.println("it is login method");
 
 	}
+	@Test
+	public void test0() {
+		System.out.println("it is test zero");
+	}
 	
 	@Test
 	public void test1() {

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\T540p\AppData\Local\Temp\testng-eclipse-1425648175\testng-customsuite.xml</span>
+                    <span>C:\Users\T540p\AppData\Local\Temp\testng-eclipse-124964788\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,26 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 2 failed,   </span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content passed suite-Default_suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.RegistrationFormTest" class="method navigator-link" hash-for-method="registerForm(hamid, Sarem, hamid@gmail.com, 4.444444444E9, 123test, 123test)">registerForm(hamid, Sarem, hamid@gmail.com, 4.444444444E9, 123test, 123test)</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.RegistrationFormTest" class="method navigator-link" hash-for-method="registrationFormTest(hamid, Saremq, hamid@gmail.comq, 3.4444444444E10, 123test3, 123test3)">registrationFormTest(hamid, Saremq, hamid@gmail.comq, 3.4444444444E10, 123test3, 123test3)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.RegistrationFormTest" class="method navigator-link" hash-for-method="registerForm(Jawid, Ashoory, jawid@hotmail.come, 2.222222222E9, test123, test124)">registerForm(Jawid, Ashoory, jawid@hotmail.come, 2.222222222E9, test123, test124)</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.RegistrationFormTest" class="method navigator-link" hash-for-method="registrationFormTest(Jawidq, Ashooryq, jawid@hotmail.comeq, 3.2222222222E10, test1233, test1243)">registrationFormTest(Jawidq, Ashooryq, jawid@hotmail.comeq, 3.2222222222E10, test1233, test1243)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -123,102 +123,34 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+          <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">tests.RegistrationFormTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="registerForm(hamid, Sarem, hamid@gmail.com, 4.444444444E9, 123test, 123test)">
-                  </a> <!-- registerForm(hamid, Sarem, hamid@gmail.com, 4.444444444E9, 123test, 123test) -->
-                  <span class="method-name">registerForm</span>
-                  <span class="parameters">(hamid,Sarem,hamid@gmail.com,4.444444444E9,123test,123test)</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-	at pageObjects.RegistrationFormPageObjects.clickOnMyAccount(RegistrationFormPageObjects.java:59)
-	at tests.RegistrationFormTest.registerForm(RegistrationFormTest.java:30)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
+                  <a name="registrationFormTest(hamid, Saremq, hamid@gmail.comq, 3.4444444444E10, 123test3, 123test3)">
+                  </a> <!-- registrationFormTest(hamid, Saremq, hamid@gmail.comq, 3.4444444444E10, 123test3, 123test3) -->
+                  <span class="method-name">registrationFormTest</span>
+                  <span class="parameters">(hamid,Saremq,hamid@gmail.comq,3.4444444444E10,123test3,123test3)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="registerForm(Jawid, Ashoory, jawid@hotmail.come, 2.222222222E9, test123, test124)">
-                  </a> <!-- registerForm(Jawid, Ashoory, jawid@hotmail.come, 2.222222222E9, test123, test124) -->
-                  <span class="method-name">registerForm</span>
-                  <span class="parameters">(Jawid,Ashoory,jawid@hotmail.come,2.222222222E9,test123,test124)</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-	at pageObjects.RegistrationFormPageObjects.clickOnMyAccount(RegistrationFormPageObjects.java:59)
-	at tests.RegistrationFormTest.registerForm(RegistrationFormTest.java:30)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
+                  <a name="registrationFormTest(Jawidq, Ashooryq, jawid@hotmail.comeq, 3.2222222222E10, test1233, test1243)">
+                  </a> <!-- registrationFormTest(Jawidq, Ashooryq, jawid@hotmail.comeq, 3.2222222222E10, test1233, test1243) -->
+                  <span class="method-name">registrationFormTest</span>
+                  <span class="parameters">(Jawidq,Ashooryq,jawid@hotmail.comeq,3.2222222222E10,test1233,test1243)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\T540p\AppData\Local\Temp\testng-eclipse-1425648175\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\T540p\AppData\Local\Temp\testng-eclipse-124964788\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -269,18 +201,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'registerForm')
+data.setCell(0, 1, 'registrationFormTest')
 data.setCell(0, 2, 'tests.RegistrationFormTest')
-data.setCell(0, 3, 14);
+data.setCell(0, 3, 4699);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'registerForm')
+data.setCell(1, 1, 'registrationFormTest')
 data.setCell(1, 2, 'tests.RegistrationFormTest')
-data.setCell(1, 3, 3);
+data.setCell(1, 3, 4323);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 ms</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -308,24 +240,20 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">tests.RegistrationFormTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
+                <span class="method-name">initializeWebDriver</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">registerForm(Jawid, Ashoory, jawid@hotmail.come, 2.222222222E9, test123, test124)</span>
-                <span class="method-start">13656 ms</span>
+                <span class="method-name">registrationFormTest(Jawidq, Ashooryq, jawid@hotmail.comeq, 3.2222222222E10, test1233, test1243)</span>
+                <span class="method-start">10014 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">registerForm(hamid, Sarem, hamid@gmail.com, 4.444444444E9, 123test, 123test)</span>
-                <span class="method-start">13676 ms</span>
+                <span class="method-name">registrationFormTest(hamid, Saremq, hamid@gmail.comq, 3.4444444444E10, 123test3, 123test3)</span>
+                <span class="method-start">14718 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">13690 ms</span>
+                <span class="method-name">close</span>
+                <span class="method-start">19048 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
