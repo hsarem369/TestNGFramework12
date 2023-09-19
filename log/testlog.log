@@ -87,4 +87,181 @@
 2023-09-08 18:25:31,371 - logger file -INFO - user is clicking my account
 2023-09-13 14:59:55,348 - logger file -INFO - initize the driver
 2023-09-13 18:19:26,988 - logger file -INFO - initize the driver
+<<<<<<< HEAD
 2023-09-15 11:51:48,498 - logger file -INFO - initize the driver
+=======
+2023-09-15 16:52:41,133 - logger file -INFO - test execution started
+2023-09-15 16:52:41,176 - logger file -INFO - test passed successfully
+2023-09-15 16:52:41,178 - logger file -INFO - method name: login
+2023-09-15 16:52:41,206 - logger file -INFO - test passed successfully
+2023-09-15 16:52:41,207 - logger file -INFO - method name: test1
+2023-09-15 16:52:41,222 - logger file -INFO - test passed successfully
+2023-09-15 16:52:41,224 - logger file -INFO - method name: test2
+2023-09-15 16:52:41,266 - logger file -INFO -  end of execution
+2023-09-15 16:54:28,268 - logger file -INFO - test execution started
+2023-09-15 16:54:28,321 - logger file -INFO - test failed
+2023-09-15 16:54:28,322 - logger file -INFO - method name : failTest
+2023-09-15 16:54:28,358 - logger file -INFO - test passed successfully
+2023-09-15 16:54:28,359 - logger file -INFO - method name: login
+2023-09-15 16:54:28,375 - logger file -INFO - test passed successfully
+2023-09-15 16:54:28,379 - logger file -INFO - method name: test1
+2023-09-15 16:54:28,396 - logger file -INFO - test passed successfully
+2023-09-15 16:54:28,398 - logger file -INFO - method name: test2
+2023-09-15 16:54:28,455 - logger file -INFO -  end of execution
+2023-09-15 17:25:27,358 - logger file -INFO - test execution started
+2023-09-15 17:25:27,410 - logger file -INFO - test failed
+2023-09-15 17:25:27,415 - logger file -INFO - method name : failTest
+2023-09-15 17:25:27,452 - logger file -INFO - test passed successfully
+2023-09-15 17:25:27,454 - logger file -INFO - method name: login
+2023-09-15 17:25:27,470 - logger file -INFO - test passed successfully
+2023-09-15 17:25:27,472 - logger file -INFO - method name: test1
+2023-09-15 17:25:27,493 - logger file -INFO - test passed successfully
+2023-09-15 17:25:27,498 - logger file -INFO - method name: test2
+2023-09-15 17:25:27,552 - logger file -INFO -  end of execution
+2023-09-15 17:29:33,771 - logger file -INFO - test execution started
+2023-09-15 17:29:33,834 - logger file -INFO - test failed
+2023-09-15 17:29:33,836 - logger file -INFO - method name : failTest
+2023-09-15 17:29:33,883 - logger file -INFO - test passed successfully
+2023-09-15 17:29:33,884 - logger file -INFO - method name: login
+2023-09-15 17:29:33,903 - logger file -INFO - test passed successfully
+2023-09-15 17:29:33,905 - logger file -INFO - method name: test1
+2023-09-15 17:29:33,929 - logger file -INFO - test passed successfully
+2023-09-15 17:29:33,933 - logger file -INFO - method name: test2
+2023-09-15 17:29:33,999 - logger file -INFO -  end of execution
+2023-09-15 18:37:41,069 - logger file -INFO - initialize driver
+2023-09-15 18:41:22,501 - logger file -INFO - initialize driver
+2023-09-15 18:44:04,728 - logger file -INFO - initialize driver
+2023-09-15 18:58:55,781 - logger file -INFO - initialize driver
+2023-09-15 19:04:11,748 - logger file -INFO - initialize driver
+2023-09-17 08:10:13,429 - logger file -INFO - test execution started
+2023-09-17 08:10:25,063 - logger file -INFO - initize the driver
+2023-09-17 08:10:33,534 - logger file -INFO - test passed successfully
+2023-09-17 08:10:33,535 - logger file -INFO - method name: runTestMultipleTimes
+2023-09-17 08:10:33,587 - logger file -INFO - test passed successfully
+2023-09-17 08:10:33,588 - logger file -INFO - method name: runTestMultipleTimes
+2023-09-17 08:10:33,595 - logger file -INFO - test passed successfully
+2023-09-17 08:10:33,596 - logger file -INFO - method name: alwaysRun
+2023-09-17 08:10:33,612 - logger file -INFO - test passed successfully
+2023-09-17 08:10:33,612 - logger file -INFO - method name: dependsOnMethods
+2023-09-17 08:10:33,628 - logger file -INFO - test passed successfully
+2023-09-17 08:10:33,629 - logger file -INFO - method name: description
+2023-09-17 08:10:33,642 - logger file -INFO - test passed successfully
+2023-09-17 08:10:33,643 - logger file -INFO - method name: description
+2023-09-17 08:10:33,652 - logger file -INFO - test passed successfully
+2023-09-17 08:10:33,653 - logger file -INFO - method name: dividedByZeroExample1
+2023-09-17 08:10:33,745 - logger file -INFO - test passed successfully
+2023-09-17 08:10:33,752 - logger file -INFO - method name: executetimeOut
+2023-09-17 08:10:33,802 - logger file -INFO - test failed
+2023-09-17 08:10:33,802 - logger file -INFO - method name : failTest
+2023-09-17 08:10:33,903 - logger file -INFO - test failed
+2023-09-17 08:10:33,905 - logger file -INFO - method name : login
+2023-09-17 08:10:33,908 - logger file -INFO - test passed successfully
+2023-09-17 08:10:33,909 - logger file -INFO - method name: login
+2023-09-17 08:10:39,881 - logger file -INFO - test passed successfully
+2023-09-17 08:10:39,882 - logger file -INFO - method name: registrationFormTest
+2023-09-17 08:10:44,138 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,139 - logger file -INFO - method name: registrationFormTest
+2023-09-17 08:10:44,141 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,143 - logger file -INFO - method name: runTestMultipleTimes
+2023-09-17 08:10:44,149 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,149 - logger file -INFO - method name: runTestMultipleTimes
+2023-09-17 08:10:44,153 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,154 - logger file -INFO - method name: test
+2023-09-17 08:10:44,166 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,166 - logger file -INFO - method name: test
+2023-09-17 08:10:44,174 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,174 - logger file -INFO - method name: test
+2023-09-17 08:10:44,181 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,183 - logger file -INFO - method name: test
+2023-09-17 08:10:44,186 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,187 - logger file -INFO - method name: test1
+2023-09-17 08:10:44,191 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,192 - logger file -INFO - method name: test1
+2023-09-17 08:10:44,201 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,202 - logger file -INFO - method name: test2
+2023-09-17 08:10:44,219 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,220 - logger file -INFO - method name: test2
+2023-09-17 08:10:44,221 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,221 - logger file -INFO - method name: test2
+2023-09-17 08:10:44,229 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,230 - logger file -INFO - method name: test4
+2023-09-17 08:10:44,235 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,235 - logger file -INFO - method name: test5
+2023-09-17 08:10:44,238 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,239 - logger file -INFO - method name: testCaseSkipException
+2023-09-17 08:10:44,243 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,243 - logger file -INFO - method name: alwaysRun
+2023-09-17 08:10:44,249 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,249 - logger file -INFO - method name: smoke
+2023-09-17 08:10:44,255 - logger file -INFO - test passed successfully
+2023-09-17 08:10:44,256 - logger file -INFO - method name: integration
+2023-09-17 08:10:44,831 - logger file -INFO -  end of execution
+2023-09-17 08:37:37,914 - logger file -INFO - test execution started
+2023-09-17 08:37:47,662 - logger file -INFO - initize the driver
+2023-09-17 08:37:56,972 - logger file -INFO - test passed successfully
+2023-09-17 08:37:56,973 - logger file -INFO - method name: runTestMultipleTimes
+2023-09-17 08:37:57,017 - logger file -INFO - test passed successfully
+2023-09-17 08:37:57,023 - logger file -INFO - method name: runTestMultipleTimes
+2023-09-17 08:37:57,042 - logger file -INFO - test passed successfully
+2023-09-17 08:37:57,044 - logger file -INFO - method name: alwaysRun
+2023-09-17 08:37:57,054 - logger file -INFO - test passed successfully
+2023-09-17 08:37:57,055 - logger file -INFO - method name: dependsOnMethods
+2023-09-17 08:37:57,060 - logger file -INFO - test passed successfully
+2023-09-17 08:37:57,060 - logger file -INFO - method name: description
+2023-09-17 08:37:57,064 - logger file -INFO - test passed successfully
+2023-09-17 08:37:57,065 - logger file -INFO - method name: description
+2023-09-17 08:37:57,073 - logger file -INFO - test passed successfully
+2023-09-17 08:37:57,073 - logger file -INFO - method name: dividedByZeroExample1
+2023-09-17 08:37:57,083 - logger file -INFO - test passed successfully
+2023-09-17 08:37:57,083 - logger file -INFO - method name: executetimeOut
+2023-09-17 08:37:57,112 - logger file -INFO - test failed
+2023-09-17 08:37:57,113 - logger file -INFO - method name : failTest
+2023-09-17 08:37:57,171 - logger file -INFO - test failed
+2023-09-17 08:37:57,172 - logger file -INFO - method name : login
+2023-09-17 08:37:57,176 - logger file -INFO - test passed successfully
+2023-09-17 08:37:57,176 - logger file -INFO - method name: login
+2023-09-17 08:38:03,527 - logger file -INFO - test passed successfully
+2023-09-17 08:38:03,527 - logger file -INFO - method name: registrationFormTest
+2023-09-17 08:38:08,060 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,061 - logger file -INFO - method name: registrationFormTest
+2023-09-17 08:38:08,063 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,064 - logger file -INFO - method name: runTestMultipleTimes
+2023-09-17 08:38:08,069 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,072 - logger file -INFO - method name: runTestMultipleTimes
+2023-09-17 08:38:08,077 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,078 - logger file -INFO - method name: test
+2023-09-17 08:38:08,080 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,080 - logger file -INFO - method name: test
+2023-09-17 08:38:08,084 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,085 - logger file -INFO - method name: test
+2023-09-17 08:38:08,088 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,090 - logger file -INFO - method name: test
+2023-09-17 08:38:08,093 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,093 - logger file -INFO - method name: test0
+2023-09-17 08:38:08,096 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,096 - logger file -INFO - method name: test1
+2023-09-17 08:38:08,102 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,102 - logger file -INFO - method name: test1
+2023-09-17 08:38:08,108 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,109 - logger file -INFO - method name: test2
+2023-09-17 08:38:08,127 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,127 - logger file -INFO - method name: test2
+2023-09-17 08:38:08,127 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,128 - logger file -INFO - method name: test2
+2023-09-17 08:38:08,132 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,133 - logger file -INFO - method name: test4
+2023-09-17 08:38:08,137 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,138 - logger file -INFO - method name: test5
+2023-09-17 08:38:08,141 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,141 - logger file -INFO - method name: testCaseSkipException
+2023-09-17 08:38:08,144 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,144 - logger file -INFO - method name: alwaysRun
+2023-09-17 08:38:08,147 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,149 - logger file -INFO - method name: smoke
+2023-09-17 08:38:08,157 - logger file -INFO - test passed successfully
+2023-09-17 08:38:08,158 - logger file -INFO - method name: integration
+2023-09-17 08:38:08,671 - logger file -INFO -  end of execution
+2023-09-17 10:13:12,809 - logger file -INFO - initize the driver
+2023-09-17 10:14:55,439 - logger file -INFO - initize the driver
+2023-09-17 10:48:24,507 - logger file -INFO - initize the driver
+>>>>>>> d53309582b71c6e73c2a43ef9623e61a3f0ae7e2
