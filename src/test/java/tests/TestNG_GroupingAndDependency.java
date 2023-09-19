@@ -74,7 +74,7 @@ public class TestNG_GroupingAndDependency {
 		System.out.println("it is groups feature test1");
 	}
 	
-	@Test(groups = {"smoke"})
+	@Test(threadPoolSize = 3, invocationCount = 2,  timeOut = 10000)
 	public void test2() {
 		System.out.println("it is group feature test2");
 	}

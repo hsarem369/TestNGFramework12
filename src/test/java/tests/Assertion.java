@@ -1,24 +1,18 @@
 package tests;
 
-import static org.testng.Assert.assertEquals;
-
-import org.junit.Assert;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import cucumber.runtime.junit.Assertions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utils.DriverUtility;
-
 public class Assertion extends DriverUtility {
 
 	public static WebDriver driver;
@@ -42,7 +36,7 @@ public class Assertion extends DriverUtility {
 		public void verifytest0() {
 
 			String actualTitle = driver.getTitle();
-			String expectedTitle = "aqMaven Repository: Search/Browse/Explore";
+			String expectedTitle = "aqMaven Repository: Search/Browse/Exploreqq";
 			Assert.assertEquals(actualTitle, expectedTitle);
 			
 			
@@ -58,7 +52,7 @@ public class Assertion extends DriverUtility {
 		Assert.assertEquals(actualTitle, expectedTitle);
 		
 		
-		System.out.println("hi it is hard assertions");
+		System.out.println("hi it is hard assertions p 1");
 	
 	}
 	@Test (priority = 2)
