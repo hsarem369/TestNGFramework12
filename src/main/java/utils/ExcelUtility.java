@@ -12,7 +12,7 @@ import core.BaseClass;
 
 public class ExcelUtility extends BaseClass{
 
-	public static String pathToExcelFile ="C:\\Users\\T540p\\Desktop\\info.xlsx";
+	public static String pathToExcelFile ="C:\\Users\\user\\git\\toptechschool.sdet.testNG.framework\\Registratoin form.xlsx";
 										  
 	public static Workbook book;
 	public static Sheet sheet;

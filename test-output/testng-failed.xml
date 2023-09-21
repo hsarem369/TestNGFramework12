@@ -5,9 +5,9 @@
     <classes>
       <class name="tests.RegistrationFormTest">
         <methods>
-          <include name="registerForm" invocation-numbers="0 1"/>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
+          <include name="initializeWebDriver"/>
+          <include name="close"/>
+          <include name="registrationFormTest"/>
         </methods>
       </class> <!-- tests.RegistrationFormTest -->
     </classes>
