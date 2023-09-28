@@ -265,3 +265,46 @@
 2023-09-17 10:14:55,439 - logger file -INFO - initize the driver
 2023-09-17 10:48:24,507 - logger file -INFO - initize the driver
 >>>>>>> d53309582b71c6e73c2a43ef9623e61a3f0ae7e2
+2023-09-22 19:23:13,441 - logger file -INFO - initize the driver
+2023-09-23 16:06:11,639 - logger file -INFO - test execution startedorg.testng.TestRunner@5a12c728
+2023-09-23 16:06:11,667 - logger file -INFO - failTest
+2023-09-23 16:06:11,684 - logger file -INFO - test failed
+2023-09-23 16:06:11,685 - logger file -INFO - method name : failTest
+2023-09-23 16:06:11,706 - logger file -INFO - login
+2023-09-23 16:06:11,711 - logger file -INFO - test passed successfully
+2023-09-23 16:06:11,713 - logger file -INFO - method name: login
+2023-09-23 16:06:11,716 - logger file -INFO - test0
+2023-09-23 16:06:11,719 - logger file -INFO - test passed successfully
+2023-09-23 16:06:11,719 - logger file -INFO - method name: test0
+2023-09-23 16:06:11,723 - logger file -INFO - test1
+2023-09-23 16:06:11,725 - logger file -INFO - test passed successfully
+2023-09-23 16:06:11,725 - logger file -INFO - method name: test1
+2023-09-23 16:06:11,739 - logger file -INFO - test2
+2023-09-23 16:06:11,748 - logger file -INFO - test passed successfully
+2023-09-23 16:06:11,753 - logger file -INFO - method name: test2
+2023-09-23 16:06:11,778 - logger file -INFO -  end of executionorg.testng.TestRunner@5a12c728
+2023-09-23 16:08:43,844 - logger file -INFO - test execution startedorg.testng.TestRunner@60b85ba1
+2023-09-23 16:08:43,878 - logger file -INFO - failTest
+2023-09-23 16:08:43,904 - logger file -INFO - test failed
+2023-09-23 16:08:43,914 - logger file -INFO - method name : failTest
+2023-09-23 16:08:43,961 - logger file -INFO -  end of executionorg.testng.TestRunner@60b85ba1
+2023-09-23 16:09:27,170 - logger file -INFO - test execution startedorg.testng.TestRunner@5a12c728
+2023-09-23 16:09:27,200 - logger file -INFO - failTest
+2023-09-23 16:09:27,225 - logger file -INFO - test failed
+2023-09-23 16:09:27,227 - logger file -INFO - method name : failTest
+2023-09-23 16:09:27,247 - logger file -INFO - login
+2023-09-23 16:09:27,254 - logger file -INFO - test passed successfully
+2023-09-23 16:09:27,255 - logger file -INFO - method name: login
+2023-09-23 16:09:27,271 - logger file -INFO - test0
+2023-09-23 16:09:27,281 - logger file -INFO - test passed successfully
+2023-09-23 16:09:27,281 - logger file -INFO - method name: test0
+2023-09-23 16:09:27,288 - logger file -INFO - test1
+2023-09-23 16:09:27,294 - logger file -INFO - test passed successfully
+2023-09-23 16:09:27,295 - logger file -INFO - method name: test1
+2023-09-23 16:09:27,303 - logger file -INFO - test2
+2023-09-23 16:09:27,310 - logger file -INFO - test passed successfully
+2023-09-23 16:09:27,310 - logger file -INFO - method name: test2
+2023-09-23 16:09:27,340 - logger file -INFO -  end of executionorg.testng.TestRunner@5a12c728
+2023-09-25 18:41:10,478 - logger file -INFO - initize the driver
+2023-09-25 19:06:33,682 - logger file -INFO - initize the driver
+2023-09-25 19:08:10,068 - logger file -INFO - initize the driver

@@ -15,7 +15,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 
-@Listeners(utils.Listeners.class)
+//@Listeners(utils.Listeners.class)
 public class TestNG_Annotations {
 
 	@BeforeSuite

@@ -38,7 +38,7 @@ public class Assertion extends DriverUtility {
 			String actualTitle = driver.getTitle();
 			String expectedTitle = "aqMaven Repository: Search/Browse/Exploreqq";
 			Assert.assertEquals(actualTitle, expectedTitle);
-			
+			System.out.println("Hello this chenges for TestNG");
 			
 			System.out.println("hi it is hard assertions");
 		
